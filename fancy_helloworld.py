@@ -23,9 +23,9 @@ while i in range(0, len(txt_wri)):
     else:
         if i > 0:
             print("\r", new_txt + a, end="")
-            time.sleep(0.005)
+            time.sleep(0.003)
             count = count + 1
         else:
             print("\r", a, end="")
-            time.sleep(0.007)
+            time.sleep(0.005)
             count = count + 1
